@@ -2559,17 +2559,17 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content: "+";
+    content:"view project";
     font-family: georgia, serif;
     font-size: 2.7rem;
     display: block;
-    height: 30px;
-    width: 30px;
+   
+   
     line-height: 30px;
     margin-left: -15px;
     margin-top: -15px;
     position: absolute;
-    left: 50%;
+    left: 33%;
     top: 50%;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
