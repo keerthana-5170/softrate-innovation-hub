@@ -3623,4 +3623,32 @@ footer .row {
           0 0 102px #414ad7, 
           0 0 151px #414ad7;
     }
-/*# sourceMappingURL=main.css.map */
+.project-pic:hover .edit {  
+     display: block;
+}
+.hover-img:hover{
+    opacity: 30%
+}   
+
+.edit {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.project-pic {
+	position: relative;
+	display: inline-block;
+}
+
+.edit a {
+	color: #000;
+}
+.hover-logo{
+    width: 117px;
+    position: relative;
+    top: 115px;
+    right: 89px;
+}
