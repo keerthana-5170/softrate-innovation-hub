@@ -2566,7 +2566,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content:"view project";
+    content:url(../images/softrate-logo.png);
     font-family: georgia, serif;
     font-size: 2.7rem;
     display: block;
@@ -2713,7 +2713,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 768px) {
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
-        height: 230vh;
+        height: 245vh;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -3627,9 +3627,8 @@ footer .row {
      display: block;
 }
 .hover-img:hover{
-    opacity: 30%
-}   
-
+    opacity: 30%;
+}
 .edit {
 	padding-top: 7px;	
 	padding-right: 7px;
@@ -3647,8 +3646,8 @@ footer .row {
 	color: #000;
 }
 .hover-logo{
-    width: 117px;
+    width: 92px;
     position: relative;
-    top: 115px;
-    right: 89px;
+    top: 109px;
+    right: 103px;
 }
