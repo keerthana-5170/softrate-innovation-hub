@@ -2475,6 +2475,11 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+@media only screen and (min-width: 1000px) {
+    .margin{
+        margin-left: 76px;
+    }
+}
 @media only screen and (max-width: 400px) {
     .services-list .service-item:nth-child(n) {
         padding-right: 0;
@@ -2501,7 +2506,7 @@ html.no-csstransitions .home-content__main {
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
     background: #111111;
-    height:160vh;
+    height:180vh;
 }
 
 .works-content {
@@ -2705,15 +2710,17 @@ html.no-csstransitions .home-content__main {
         font-size: 1.3rem;
     }
 }
-
-@media only screen and (max-width: 600px) {
-    .s-works {
-        padding-bottom: 12rem;
-    }
+@media only screen and (max-width: 768px) {
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
         height: 230vh;
     }
+}
+@media only screen and (max-width: 600px) {
+    .s-works {
+        padding-bottom: 12rem;
+    }
+  
     .works-content {
         margin-top: -25.2rem;
     }
