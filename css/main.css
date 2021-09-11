@@ -2501,11 +2501,13 @@ html.no-csstransitions .home-content__main {
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
     background: #111111;
+    height:160vh;
 }
 
 .works-content {
     max-width: 1160px;
     margin-top: -23.4rem;
+   
 }
 
 
@@ -2710,6 +2712,7 @@ html.no-csstransitions .home-content__main {
     }
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
+        height: 200vh;
     }
     .works-content {
         margin-top: -25.2rem;
