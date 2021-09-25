@@ -124,7 +124,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 @media only screen and (max-width: 600px) {
     h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-        margin-top: 5.1rem;
     }
 }
 
@@ -134,7 +133,6 @@ h5, .h5, h6, .h6 {
 
 @media only screen and (max-width: 600px) {
     h5, .h5, h6, .h6 {
-        margin-top: 3.6rem;
         margin-bottom: 0.9rem;
     }
 }
@@ -3667,5 +3665,14 @@ footer .row {
 .product-logo{
     margin-top: 10px;
     width: 125px;
-    margin-left: 33px;
+    margin-left: 6px;
+}
+@media only screen and (max-width: 425px) {
+    .cityspark{
+        margin-top:40px;
+    }
+}
+.footer-col h4 span {
+    padding-bottom: 3px;
+    border-bottom: 3px solid #4a47a3;
 }
